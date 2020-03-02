@@ -1,7 +1,7 @@
 <!--
     Homework 1: Code Refactor
     U of U Coding Boot Camp
-    March 1st, 2020
+    March 2nd, 2020
 
     index.html
 -->
@@ -13,27 +13,28 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Hori(seo)n</title>
+    <title>HoriSEOn</title>
 </head>
 
 
 <body>
-    <!-- Header / Top Bar of the website -->
+    <!-- Header / Navbar of the website -->
     <header>
         <!-- Company Name / Logo (Horiseon) -->
         <h1>
-            Hori<span id="seo">seo</span>n
+            Hori<span class="seo">seo</span>n
         </h1>
-        <!-- Top Bar Selectors -->
-        <section id="topbar_options">
+        <!-- Navbar Selectors -->
+        <section id="navbar_options">
             <ul>
-                <li class="topbar_items">
+                <!-- Each item has been corrected to properly reference the corresponding content section -->
+                <li class="navbar_items">
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
-                <li class="topbar_items">
+                <li class="navbar_items">
                     <a href="#online-reputation-management">Online Reputation Management</a>
                 </li>
-                <li class="topbar_items">
+                <li class="navbar_items">
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
@@ -48,9 +49,9 @@
 
     <!-- This div contains main content beneath the primary image (left justified) -->
     <div id="content">
-        
+        <!-- alt tags have been added to each content section image -->
         <section class="content_section" id="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+            <img src="./assets/images/search-engine-optimization.jpg" alt="SEO" class="float-left" />
             <h2>
                 Search Engine Optimization
             </h2>
@@ -60,7 +61,7 @@
         </section>
 
         <section class="content_section" id="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
+            <img src="./assets/images/online-reputation-management.jpg" alt="Online Reputation Management" class="float-right" />
             <h2>
                 Online Reputation Management
             </h2>
@@ -70,7 +71,7 @@
         </section>
 
         <section class="content_section" id="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+            <img src="./assets/images/social-media-marketing.jpg" alt="Social Media Marketing" class="float-left" />
             <h2>
                 Social Media Marketing
             </h2>
@@ -83,12 +84,12 @@
 
     <!-- This div contains additional content beneath the primary image (right justified) -->
     <div id="benefits">
-
+        <!-- alt tags have been added to each image in the benefits section -->
         <section class="benefit_section">
             <h3>
                 Lead Generation
             </h3>
-            <img src="./assets/images/lead-generation.png" class="benefit_img"/>
+            <img src="./assets/images/lead-generation.png" alt="Lead Generation" class="benefit_img"/>
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
@@ -98,7 +99,7 @@
             <h3>
                 Brand Awareness
             </h3>
-            <img src="./assets/images/brand-awareness.png" class="benefit_img"/>
+            <img src="./assets/images/brand-awareness.png" alt="Brand Awareness" class="benefit_img"/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
@@ -108,7 +109,7 @@
             <h3>
                 Cost Management
             </h3>
-            <img src="./assets/images/cost-management.png" class="benefit_img"/>
+            <img src="./assets/images/cost-management.png" alt="Cost Management" class="benefit_img"/>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
@@ -119,7 +120,7 @@
 
     <footer>
         <h4>
-            Made with ❤️️ by Hori(seo)n
+            Made with ❤️️ by Hori<span class="seo">seo</span>n
         </h4>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
